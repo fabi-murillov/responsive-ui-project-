@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div id="Logo">
+            <img id="LogoImg" src="../Media/logo restaurante.png" alt="Logo del restaurante">
+            <h1>Yoshi</h1>
+        </div>
+        <input type="checkbox" id="MenuToggle" class="menu-checkbox">
+        <label for="MenuToggle" id="MenuToggleLabel" aria-label="Abrir menú de navegación">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav id="BarraNavegacion">
+            <ul id="Links">
+                <li><a href="#SobreNosotros">Sobre nosotros</a></li>
+                <li><a href="#Destacados">Destacados</a></li>
+                <li><a href="#Reservacion">Reservar</a></li>
+                <li><a href="#Locales">Nuestros locales</a></li>
+                <li><a href="#Reviews">Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+    <section id="ImagenSuperior">
+        <img src="../Media/Restaurante.png" alt="Imagen de restaurante inspirado en cultura japonesa">
+    </section>
+
+    <section id="SobreNosotros"> 
+        <div id="SobreNosotrosTexto">
+            <h2>El Arte de la Cocina Japonesa</h2>
+            <p>
+                Inspirados por la elegancia y la tradición de la alta gastronomía japonesa, concebimos cada experiencia como una expresión de equilibrio, precisión y respeto por los ingredientes. Nuestra filosofía se fundamenta en la búsqueda constante de la excelencia, donde cada plato refleja la armonía entre la técnica, la estacionalidad y la creatividad contemporánea.
+                Seleccionamos cuidadosamente ingredientes frescos y de la más alta calidad para honrar los sabores auténticos de Japón, preservando su esencia mientras incorporamos un enfoque moderno y sofisticado. Desde la delicadeza de cada corte hasta la presentación de cada creación, cada detalle ha sido pensado para despertar los sentidos y transmitir la belleza de la simplicidad.
+            </p>
+        </div>
+        <div id="SobreNosotrosImagen">
+            <img src="..//Media/sushi.png" alt="Imagen de decoración de cupcakes">
+        </div>
+    </section>
+
+    <section id="Reservacion">
+        <h2>Hacer reservación</h2>
+        <div id="FormularioReserva">
+            <div id="FormularioReservaInputs">
+                <div id="Fecha" class="InputReserva">
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" name="fecha" placeholder="Fecha">
+                </div>
+                <div id="Hora" class="InputReserva">
+                    <label for="hora">Hora:</label>
+                    <input type="time" name="hora" placeholder="Hora">
+                </div>
+                <div id="Personas" class="InputReserva">
+                    <label for="personas">Personas:</label>
+                    <input type="number" name="personas" placeholder="Cantidad invitados">
+                </div>
+            </div>
+            <button id="BotonFormularioReserva" type="button">Encuentra una mesa</button>
+        </div>
+        <p>Para grupos grandes (6 o más personas), realiza tu reserva por WhatsApp al 8858-2222. Para eventos por favor completá este formulario y nos comunicaremos con usted</p>
+    </section>
+
+    <section id="Locales">
+        <div id="LocalesTexto">
+            <h2>Viajá a Japón sin salir de Costa Rica</h2>
+            <h2>Sucursales: </h2>
+            <ul>
+                <li>Avenida Escazú, San Rafael de Escazú, San José, Costa Rica</li>
+                <li>Barrio Escalante, San José, Costa Rica</li>
+            </ul>
+        </div>
+        <img id="LocalesImagen" src="..//Media/sucursales.png" alt="Imagen de las sucursales del restaurante">
+    </section>
+
+    <section id="Destacados">
+        <h1>Platillos destacados</h1>
+        <div class="card">
+            <img src="..//Media/platillo dragon roll.jpg" alt="Imagen de platillo japonés dragon roll">
+            <div>
+                <h2>Dragon Roll Premium</h2>
+                <p>Delicado rollo de camarón tempura y aguacate, coronado con finas láminas de aguacate, anguila glaseada y nuestra exclusiva salsa unagi. Una combinación de texturas crujientes y sabores intensos que hacen honor a uno de los clásicos de la cocina japonesa.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..//Media/platillo otoro sashimi.jpg" alt="Imagen de platillo japonés otoro sashimi">
+            <div>
+                <h2>Ōtoro Sashimi</h2>
+                <p>Exquisitos cortes de atún graso de la más alta calidad, cuidadosamente seleccionados por su suavidad y sabor intenso. Servidos con wasabi fresco, jengibre encurtido y salsa de soya premium para resaltar su pureza.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..//Media/platillo wagyu nigiri a5.jpg" alt="Imagen de platillo japonés wagyu nigiri a5">
+            <div>
+                <h2>Wagyu Nigiri A5</h2>
+                <p>Nigiri elaborado con carne Wagyu A5 ligeramente flameada, acompañado de arroz sazonado y un delicado toque de sal marina y cebollín. Una experiencia de lujo que se deshace en el paladar.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="../Media/platillo salmon truffle roll.jpg" alt="Imagen de platillo japonés salmon truffle roll">
+            <div>
+                <h2>Salmon Truffle Roll</h2>
+                <p>Rollo de salmón fresco, queso crema y aguacate, terminado con aceite de trufa negra, cebollín y semillas de sésamo tostadas. Una fusión elegante entre la tradición japonesa y la alta cocina contemporánea.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..//Media/platillo hamachi carpaccio.jpg" alt="Imagen de platillo japonés hamachi carpaccio">
+            <div>
+                <h2>Hamachi Carpaccio</h2>
+                <p>Finas láminas de hamachi (pez limón) servidas con ponzu cítrico, aceite de sésamo, cebollino y microbrotes frescos. Un plato ligero y refinado que resalta la frescura del pescado.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="..//Media/platillo omakase signature.jpg" alt="Imagen de platillo japonés omakase signature">
+            <div>
+                <h2>Omakase Signature</h2>
+                <p>Una exclusiva selección del chef que reúne los mejores nigiris, sashimis y makis preparados con ingredientes de temporada. Cada creación es única y refleja la creatividad y precisión de nuestra cocina.</p>
+            </div>
+        </div>
+        <button type="button">Ver más</button>
+    </section>
+
+    <section id="Reviews">
+        <h2>Reviews</h2>
+        <div class="review">
+            <p>"Una experiencia excepcional de principio a fin. La frescura del sushi y la delicadeza de cada presentación reflejan el cuidado y la pasión del chef. Sin duda, uno de los mejores restaurantes japoneses que he visitado."</p>
+        </div>
+        <div class="review">
+            <p>"El ambiente es sofisticado y acogedor, perfecto para una ocasión especial. Probé el Dragon Roll Premium y el Wagyu Nigiri A5, y ambos superaron mis expectativas. El servicio fue impecable y muy atento a cada detalle."</p>
+        </div>
+        <div class="review">
+            <p>"Cada plato es una verdadera obra de arte. La combinación de sabores, la calidad de los ingredientes y la atención personalizada hicieron que nuestra cena fuera inolvidable. Definitivamente volveremos para seguir descubriendo nuevas creaciones del chef."</p>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>2026 Yashimi Restaurant. Todos los derechos reservados.</p>
+        </div>
+        <div>
+            <ul>
+                <li>Teléfono: +506 2456-7890</li>
+                <li>Sucursales: Avenida Escazú y Barrio Escalante</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
